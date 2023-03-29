@@ -49,7 +49,7 @@ class _CreateSupplierScreenState extends State<CreateSupplierScreen> {
     if (data["status"] == 'success') {
       print(data);
       Fluttertoast.showToast(
-        msg: 'Update Success!',
+        msg: 'Create Success!',
         toastLength: Toast.LENGTH_SHORT,
         gravity: ToastGravity.BOTTOM,
         timeInSecForIosWeb: 1,
@@ -65,7 +65,7 @@ class _CreateSupplierScreenState extends State<CreateSupplierScreen> {
       );
     } else {
       Fluttertoast.showToast(
-        msg: 'Update Failed',
+        msg: 'Create Failed',
         toastLength: Toast.LENGTH_SHORT,
         gravity: ToastGravity.BOTTOM,
         timeInSecForIosWeb: 1,
