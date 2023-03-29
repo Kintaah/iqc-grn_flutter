@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:iqc_grn_final_project/app_colors.dart';
 import 'package:iqc_grn_final_project/landingpage.dart';
+import 'package:iqc_grn_final_project/main_screen.dart';
 import 'package:iqc_grn_final_project/maindashboard.dart';
 import 'package:iqc_grn_final_project/register_page.dart';
 import 'package:http/http.dart' as http;
@@ -71,7 +72,8 @@ class _LoginPageState extends State<LoginPage> {
       Navigator.push(
         context,
         MaterialPageRoute(
-            builder: (context) => MainDashboard(fullName: _fullName)),
+          builder: (context) => MainMenu(fullName: _fullName),
+        ),
       );
     }
   }

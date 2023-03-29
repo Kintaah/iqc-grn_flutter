@@ -536,7 +536,10 @@ class _DisplayReportState extends State<DisplayReport> {
                               context,
                               MaterialPageRoute(
                                 builder: (context) => MapScreen(
-                                    latitude: _latitude, longitude: _longitude),
+                                  latitude: _latitude,
+                                  longitude: _longitude,
+                                  location: widget.location,
+                                ),
                               ),
                             );
                           });
