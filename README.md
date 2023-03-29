@@ -1,6 +1,6 @@
 # iqc_grn_final_project
 
-A new Flutter project.
+Flutter Project that consist of QR Scanner, Simple CRUD, Send E-mail Reminder and Showing Location as given Latitude and Longitude on map.
 
 ## Getting Started
 
